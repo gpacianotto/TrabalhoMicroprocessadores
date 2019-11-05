@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 709
+  Height = 480
+  Top = 226
+  Width = 754
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 754
+  LCLVersion = '2.0.4.0'
+  object b_igual: TButton
+    Left = 680
+    Height = 58
+    Top = 408
+    Width = 59
+    Caption = '='
+    OnClick = b_igualClick
+    TabOrder = 0
+  end
+  object b_mais: TButton
+    Left = 680
+    Height = 58
+    Top = 344
+    Width = 59
+    Caption = '+'
+    OnClick = b_maisClick
+    TabOrder = 1
+  end
+  object b_menos: TButton
+    Left = 680
+    Height = 58
+    Top = 280
+    Width = 59
+    Caption = '-'
+    OnClick = b_menosClick
+    TabOrder = 2
+  end
+  object b_vezes: TButton
+    Left = 680
+    Height = 58
+    Top = 216
+    Width = 59
+    Caption = 'X'
+    TabOrder = 3
+  end
+  object b_dividir: TButton
+    Left = 680
+    Height = 58
+    Top = 152
+    Width = 59
+    Caption = '/'
+    TabOrder = 4
+  end
+  object t_conta: TEdit
+    Left = 40
+    Height = 53
+    Top = 72
+    Width = 640
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -32
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 5
+  end
+end
